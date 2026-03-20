@@ -18,9 +18,4 @@ else :
 
 print("\n-----------------")
 print(f"{greet}! {name}")
-print("Start your {} journey!".format(language))
- 
-
-
-
-
+print("Start your {} journey! {} is a lovely and interesting language".format(language))

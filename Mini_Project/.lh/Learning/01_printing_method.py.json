@@ -1,0 +1,74 @@
+{
+    "sourceFile": "Learning/01_printing_method.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1773999516846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1773999523197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+# printing methods\r\n+name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n+print(f\"Hey {name}! How are you?\")\r\n+print(\"Hey \"+ name + \" ! how are you?\")\r\n+print(\"Hey {}! how are you?\".format(name))\r\n+a = \r\n"
+                },
+                {
+                    "date": 1773999529269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+# printing methods\r\n+name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n+print(f\"Hey {name}! How are you?\")\r\n+print(\"Hey \"+ name + \" ! how are you?\")\r\n+print(\"Hey {}! how are you?\".format(name))\r\n+a = 2\r\n+a = \r\n"
+                },
+                {
+                    "date": 1773999536167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,17 +3,5 @@\n print(f\"Hey {name}! How are you?\")\r\n print(\"Hey \"+ name + \" ! how are you?\")\r\n print(\"Hey {}! how are you?\".format(name))\r\n a = 2\r\n-a = \r\n-# printing methods\r\n-name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n-print(f\"Hey {name}! How are you?\")\r\n-print(\"Hey \"+ name + \" ! how are you?\")\r\n-print(\"Hey {}! how are you?\".format(name))\r\n-a = \r\n-# printing methods\r\n-name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n-print(f\"Hey {name}! How are you?\")\r\n-print(\"Hey \"+ name + \" ! how are you?\")\r\n-print(\"Hey {}! how are you?\".format(name))\r\n-\r\n+a = \"2.0\"\r\n"
+                },
+                {
+                    "date": 1773999550447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n print(f\"Hey {name}! How are you?\")\r\n print(\"Hey \"+ name + \" ! how are you?\")\r\n print(\"Hey {}! how are you?\".format(name))\r\n a = 2\r\n-a = \"2.0\"\r\n+a = \"hey\"\r\n"
+                },
+                {
+                    "date": 1773999556062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+# printing methods\r\n+name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n+print(f\"Hey {name}! How are you?\")\r\n+print(\"Hey \"+ name + \" ! how are you?\")\r\n+print(\"Hey {}! how are you?\".format(name))\r\n+a = 2\r\n+a = \"hey\"\r\n+b= ''\r\n"
+                },
+                {
+                    "date": 1773999561610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,6 @@\n print(\"Hey \"+ name + \" ! how are you?\")\r\n print(\"Hey {}! how are you?\".format(name))\r\n a = 2\r\n a = \"hey\"\r\n-b= ''\r\n-# printing methods\r\n-name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n-print(f\"Hey {name}! How are you?\")\r\n-print(\"Hey \"+ name + \" ! how are you?\")\r\n-print(\"Hey {}! how are you?\".format(name))\r\n-a = 2\r\n-a = \"hey\"\r\n+b= '🤔'\r\n+\r\n"
+                },
+                {
+                    "date": 1773999568817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,5 @@\n print(\"Hey {}! how are you?\".format(name))\r\n a = 2\r\n a = \"hey\"\r\n b= '🤔'\r\n-\r\n+c = \r\n"
+                },
+                {
+                    "date": 1773999577365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+# printing methods\r\n+name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n+print(f\"Hey {name}! How are you?\")\r\n+print(\"Hey \"+ name + \" ! how are you?\")\r\n+print(\"Hey {}! how are you?\".format(name))\r\n+a = 2\r\n+a = \"hey\"\r\n+b= '🤔'\r\n+c = 2.0\r\n+is_i = \r\n"
+                },
+                {
+                    "date": 1773999589202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,13 @@\n # printing methods\r\n+from pickle import TRUE\r\n+\r\n+\r\n name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n print(f\"Hey {name}! How are you?\")\r\n print(\"Hey \"+ name + \" ! how are you?\")\r\n print(\"Hey {}! how are you?\".format(name))\r\n a = 2\r\n a = \"hey\"\r\n b= '🤔'\r\n c = 2.0\r\n-is_i = \r\n-# printing methods\r\n-name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n-print(f\"Hey {name}! How are you?\")\r\n-print(\"Hey \"+ name + \" ! how are you?\")\r\n-print(\"Hey {}! how are you?\".format(name))\r\n-a = 2\r\n-a = \"hey\"\r\n-b= '🤔'\r\n-c = \r\n+is_i = TRUE\r\n"
+                },
+                {
+                    "date": 1773999630846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n # printing methods\r\n-from pickle import TRUE\r\n \r\n \r\n+\r\n name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n print(f\"Hey {name}! How are you?\")\r\n print(\"Hey \"+ name + \" ! how are you?\")\r\n print(\"Hey {}! how are you?\".format(name))\r\n"
+                },
+                {
+                    "date": 1773999646060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,5 @@\n name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n print(f\"Hey {name}! How are you?\")\r\n print(\"Hey \"+ name + \" ! how are you?\")\r\n print(\"Hey {}! how are you?\".format(name))\r\n-a = 2\r\n-a = \"hey\"\r\n-b= '🤔'\r\n-c = 2.0\r\n-is_i = TRUE\r\n+\r\n"
+                },
+                {
+                    "date": 1773999651532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,4 @@\n name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n print(f\"Hey {name}! How are you?\")\r\n print(\"Hey \"+ name + \" ! how are you?\")\r\n print(\"Hey {}! how are you?\".format(name))\r\n-\r\n"
+                },
+                {
+                    "date": 1773999751013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n print(f\"Hey {name}! How are you?\")\r\n print(\"Hey \"+ name + \" ! how are you?\")\r\n print(\"Hey {}! how are you?\".format(name))\r\n-input\r\n+input()\r\n \r\n"
+                },
+                {
+                    "date": 1773999758918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+# printing methods\r\n+\r\n+\r\n+\r\n+name = input()    #you can also take input from user by : input(\"enter your name: \")\r\n+print(f\"Hey {name}! How are you?\")\r\n+print(\"Hey \"+ name + \" ! how are you?\")\r\n+print(\"Hey {}! how are you?\".format(name))\r\n+a = input()\r\n+\r\n"
+                }
+            ],
+            "date": 1773999516846,
+            "name": "Commit-0",
+            "content": "# printing methods\r\nname = input()    #you can also take input from user by : input(\"enter your name: \")\r\nprint(f\"Hey {name}! How are you?\")\r\nprint(\"Hey \"+ name + \" ! how are you?\")\r\nprint(\"Hey {}! how are you?\".format(name))\r\n\r\n"
+        }
+    ]
+}
