@@ -1,0 +1,46 @@
+{
+    "sourceFile": "02_Simple_CalC.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1773995936813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1773995953007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-?\n\\ No newline at end of file\n+#\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1773995961156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-#\n\\ No newline at end of file\n+#Calculator\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1773995974809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-#Calculator\n\\ No newline at end of file\n+#Calculator\r\n"
+                },
+                {
+                    "date": 1773995983432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n #Calculator\r\n+print(\"\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1773995990105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+#Calculator\r\n+print(\"\\n--- \")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1773996001320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n #Calculator\r\n-print(\"\\n--- Ca\n\\ No newline at end of file\n+print(\"\\n--- Calculator\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1773996006943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+#Calculator\r\n+print(\"\\n--- Calculator---\")\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1773995936813,
+            "name": "Commit-0",
+            "content": "?"
+        }
+    ]
+}
