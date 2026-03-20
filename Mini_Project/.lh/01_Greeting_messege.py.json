@@ -1,0 +1,118 @@
+{
+    "sourceFile": "01_Greeting_messege.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1773994676227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1773994685065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n current_time = datetime.now()\r\n hour = current_time.hour\r\n \r\n-name = input(\"What is your name: \")\r\n+name = input(\"What is your name? \")\r\n language = input(\"What is your favorite language🤔\")\r\n \r\n if(hour>=0 and hour < 12 ):\r\n     greet = \"Good Morning\"\r\n"
+                },
+                {
+                    "date": 1773994694822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n current_time = datetime.now()\r\n hour = current_time.hour\r\n \r\n name = input(\"What is your name? \")\r\n-language = input(\"What is your favorite language🤔\")\r\n+language = input(\"What is your favorite language?🤔\")\r\n \r\n if(hour>=0 and hour < 12 ):\r\n     greet = \"Good Morning\"\r\n elif(hour>= 12 and hour < 4):\r\n"
+                },
+                {
+                    "date": 1773994742359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n current_time = datetime.now()\r\n hour = current_time.hour\r\n \r\n-name = input(\"What is your name? \")\r\n+name = input(\"What is your name?👀 \")\r\n language = input(\"What is your favorite language?🤔\")\r\n \r\n if(hour>=0 and hour < 12 ):\r\n     greet = \"Good Morning\"\r\n"
+                },
+                {
+                    "date": 1773994753935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     greet = \"Good Evening\"\r\n else :\r\n     greet = \"Good Night\"\r\n \r\n-print(Hey)\r\n+print(H)\r\n  \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1773994766128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     greet = \"Good Evening\"\r\n else :\r\n     greet = \"Good Night\"\r\n \r\n-print(H)\r\n+print(\"\\n\")\r\n  \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1773994775241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning\"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon\"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n---Welcome to \")\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1773994784102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning\"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon\"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n---Welcome To  Our\")\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1773994790894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,56 +14,10 @@\n     greet = \"Good Evening\"\r\n else :\r\n     greet = \"Good Night\"\r\n \r\n-print(\"\\n---Welcome To  Our\")\r\n+print(\"\\n---Welcome To  O\")\r\n  \r\n \r\n \r\n \r\n \r\n-from datetime import datetime\r\n-\r\n-current_time = datetime.now()\r\n-hour = current_time.hour\r\n-\r\n-name = input(\"What is your name?👀 \")\r\n-language = input(\"What is your favorite language?🤔\")\r\n-\r\n-if(hour>=0 and hour < 12 ):\r\n-    greet = \"Good Morning\"\r\n-elif(hour>= 12 and hour < 4):\r\n-    greet = \"Good Afternoon\"\r\n-elif(hour>=4 and hour< 8 ):\r\n-    greet = \"Good Evening\"\r\n-else :\r\n-    greet = \"Good Night\"\r\n-\r\n-print(\"\\n---Welcome to \")\r\n- \r\n-\r\n-\r\n-\r\n-\r\n-from datetime import datetime\r\n-\r\n-current_time = datetime.now()\r\n-hour = current_time.hour\r\n-\r\n-name = input(\"What is your name?👀 \")\r\n-language = input(\"What is your favorite language?🤔\")\r\n-\r\n-if(hour>=0 and hour < 12 ):\r\n-    greet = \"Good Morning\"\r\n-elif(hour>= 12 and hour < 4):\r\n-    greet = \"Good Afternoon\"\r\n-elif(hour>=4 and hour< 8 ):\r\n-    greet = \"Good Evening\"\r\n-else :\r\n-    greet = \"Good Night\"\r\n-\r\n-print(\"\\n\")\r\n- \r\n-\r\n-\r\n-\r\n-\r\n"
+                },
+                {
+                    "date": 1773994795994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     greet = \"Good Evening\"\r\n else :\r\n     greet = \"Good Night\"\r\n \r\n-print(\"\\n---Welcome To  O\")\r\n+print(\"\\n---W\")\r\n  \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1773994802453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning\"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon\"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n---\\\")\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1773994810526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,33 +14,10 @@\n     greet = \"Good Evening\"\r\n else :\r\n     greet = \"Good Night\"\r\n \r\n-print(\"\\n---\\\")\r\n+print(\"\\n---\")\r\n  \r\n \r\n \r\n \r\n \r\n-from datetime import datetime\r\n-\r\n-current_time = datetime.now()\r\n-hour = current_time.hour\r\n-\r\n-name = input(\"What is your name?👀 \")\r\n-language = input(\"What is your favorite language?🤔\")\r\n-\r\n-if(hour>=0 and hour < 12 ):\r\n-    greet = \"Good Morning\"\r\n-elif(hour>= 12 and hour < 4):\r\n-    greet = \"Good Afternoon\"\r\n-elif(hour>=4 and hour< 8 ):\r\n-    greet = \"Good Evening\"\r\n-else :\r\n-    greet = \"Good Night\"\r\n-\r\n-print(\"\\n---W\")\r\n- \r\n-\r\n-\r\n-\r\n-\r\n"
+                },
+                {
+                    "date": 1773994820396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     greet = \"Good Evening\"\r\n else :\r\n     greet = \"Good Night\"\r\n \r\n-print(\"\\n---\")\r\n+print(\"\\n-----------------\")\r\n  \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1773994828207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n else :\r\n     greet = \"Good Night\"\r\n \r\n print(\"\\n-----------------\")\r\n+print()\r\n  \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1773994834389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n else :\r\n     greet = \"Good Night\"\r\n \r\n print(\"\\n-----------------\")\r\n-print()\r\n+print(f\"\")\r\n  \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1773994845318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n else :\r\n     greet = \"Good Night\"\r\n \r\n print(\"\\n-----------------\")\r\n-print(f\"\")\r\n+print(f\"Hey name \")\r\n  \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1773994856650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n else :\r\n     greet = \"Good Night\"\r\n \r\n print(\"\\n-----------------\")\r\n-print(f\"Hey name \")\r\n+print(f\"Hey name ! {}\".format(name))\r\n  \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1773994872104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning\"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon\"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n-----------------\")\r\n+print(\"Hey name ! {}\".format(name))\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1773994878802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,33 +16,10 @@\n     greet = \"Good Night\"\r\n \r\n print(\"\\n-----------------\")\r\n print(\"Hey name ! {}\".format(name))\r\n+print\r\n  \r\n \r\n \r\n \r\n \r\n-from datetime import datetime\r\n-\r\n-current_time = datetime.now()\r\n-hour = current_time.hour\r\n-\r\n-name = input(\"What is your name?👀 \")\r\n-language = input(\"What is your favorite language?🤔\")\r\n-\r\n-if(hour>=0 and hour < 12 ):\r\n-    greet = \"Good Morning\"\r\n-elif(hour>= 12 and hour < 4):\r\n-    greet = \"Good Afternoon\"\r\n-elif(hour>=4 and hour< 8 ):\r\n-    greet = \"Good Evening\"\r\n-else :\r\n-    greet = \"Good Night\"\r\n-\r\n-print(\"\\n-----------------\")\r\n-print(f\"Hey name ! {}\".format(name))\r\n- \r\n-\r\n-\r\n-\r\n-\r\n"
+                },
+                {
+                    "date": 1773994892794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning\"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon\"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n-----------------\")\r\n+print(\"Hey{}\".format(name))\r\n+print()\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1773994899773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning\"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon\"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n-----------------\")\r\n+print(\"{}\".format(name))\r\n+print()\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1773994908139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning\"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon\"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n-----------------\")\r\n+print(\"{}\"))\r\n+print()\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1773994918807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning\"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon\"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n-----------------\")\r\n+print(f\"{}\"))\r\n+print()\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1773994925022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning\"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon\"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n-----------------\")\r\n+print(f\"{greet} {}\"))\r\n+print()\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1773994930638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n else :\r\n     greet = \"Good Night\"\r\n \r\n print(\"\\n-----------------\")\r\n-print(f\"{greet} {name}\"))\r\n+print(f\"{greet} {name}\")\r\n print()\r\n  \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1773994935677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+from datetime import datetime\r\n+\r\n+current_time = datetime.now()\r\n+hour = current_time.hour\r\n+\r\n+name = input(\"What is your name?👀 \")\r\n+language = input(\"What is your favorite language?🤔\")\r\n+\r\n+if(hour>=0 and hour < 12 ):\r\n+    greet = \"Good Morning \"\r\n+elif(hour>= 12 and hour < 4):\r\n+    greet = \"Good Afternoon \"\r\n+elif(hour>=4 and hour< 8 ):\r\n+    greet = \"Good Evening\"\r\n+else :\r\n+    greet = \"Good Night\"\r\n+\r\n+print(\"\\n-----------------\")\r\n+print(f\"{greet} {name}\")\r\n+print()\r\n+ \r\n+\r\n+\r\n+\r\n+\r\n"
+                }
+            ],
+            "date": 1773994676227,
+            "name": "Commit-0",
+            "content": "from datetime import datetime\r\n\r\ncurrent_time = datetime.now()\r\nhour = current_time.hour\r\n\r\nname = input(\"What is your name: \")\r\nlanguage = input(\"What is your favorite language🤔\")\r\n\r\nif(hour>=0 and hour < 12 ):\r\n    greet = \"Good Morning\"\r\nelif(hour>= 12 and hour < 4):\r\n    greet = \"Good Afternoon\"\r\nelif(hour>=4 and hour< 8 ):\r\n    greet = \"Good Evening\"\r\nelse :\r\n    greet = \"Good Night\"\r\n\r\nprint(Hey)\r\n \r\n\r\n\r\n\r\n\r\n"
+        }
+    ]
+}
