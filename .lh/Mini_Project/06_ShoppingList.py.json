@@ -1,0 +1,54 @@
+{
+    "sourceFile": "Mini_Project/06_ShoppingList.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1774351003080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1774351011930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+list = []\r\n+print(list)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774351027154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,2 @@\n list = []\r\n-print(list)\n-list = \n\\ No newline at end of file\n+print(list[])\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774351035562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n list = []\r\n-print(list[])\n\\ No newline at end of file\n+print(list[0])\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774351059521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-list = []\r\n+list = [2]\r\n print(list[0])\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774351065495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-list = [2]\r\n+list = []\r\n print(list[0])\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774351337455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-list = []\r\n+list = [2]\r\n print(list[0])\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774351344069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+list = [2]\r\n+list.re\r\n+print(list[0])\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774351357254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n list = [2,8]\r\n list.remove(2)\r\n-print(list[0\n\\ No newline at end of file\n+print(list[0])\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774351369856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+list = [2,8]\r\n+list.remove(2)\r\n+print(list[)\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1774351003080,
+            "name": "Commit-0",
+            "content": "list = "
+        }
+    ]
+}

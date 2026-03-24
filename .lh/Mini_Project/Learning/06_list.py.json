@@ -1,0 +1,30 @@
+{
+    "sourceFile": "Mini_Project/Learning/06_list.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1774348704045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1774348711421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+/\r\n+***\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774348718288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n /*\r\n-*\n\\ No newline at end of file\n+*/\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774349131144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n - starting from index 0\r\n -Syntax:\r\n     list_name = [item1,item2,item3....]\r\n  -printing list\r\n-    print(list_name[])\r\n+    print(list_name[]) //for whole list\r\n+    \r\n \"\"\"\r\n \r\n \"\"\"\r\n Looping Through List:\r\n"
+                }
+            ],
+            "date": 1774348704045,
+            "name": "Commit-0",
+            "content": "***\r\n"
+        }
+    ]
+}
