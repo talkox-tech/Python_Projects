@@ -1,0 +1,46 @@
+{
+    "sourceFile": "Mini_Project/05_mathQuiz.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1774344052450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1774344062413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-def generateQuest\n\\ No newline at end of file\n+def generateQuest():\r\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774344068818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n def generateQuest():\r\n-    \n\\ No newline at end of file\n+    num1 = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774344087087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n def generateQuest():\r\n-    num1 = \n\\ No newline at end of file\n+    num1 = random.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774344097876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+def generateQuest():\r\n+    num1 = random.randint\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774344103632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+def generateQuest():\r\n+    num1 = random.randint()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774344243474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-\r\n+i\r\n def generateQuest():\r\n     num1 = random.randint(1,10)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774344251853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n import random\r\n def generateQuest():\r\n-    num1 = random.randint(1,10)\n\\ No newline at end of file\n+    num1 = random.randint(1,10)\r\n+    print\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1774344052450,
+            "name": "Commit-0",
+            "content": "def generateQuest"
+        }
+    ]
+}

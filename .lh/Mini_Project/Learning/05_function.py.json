@@ -1,0 +1,26 @@
+{
+    "sourceFile": "Mini_Project/Learning/05_function.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1774343387214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1774343392419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-#def function\n\\ No newline at end of file\n+#def functionn\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774343448024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n #def functionName(parameter can be or not):\r\n #   statement\r\n-# def\n\\ No newline at end of file\n+# def \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1774343387214,
+            "name": "Commit-0",
+            "content": "#def "
+        }
+    ]
+}
