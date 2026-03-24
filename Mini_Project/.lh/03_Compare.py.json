@@ -1,0 +1,26 @@
+{
+    "sourceFile": "03_Compare.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1774002074243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1774002080078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-input()\n\\ No newline at end of file\n+input(\"\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774002108478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-input(\"\")\n\\ No newline at end of file\n+input(\"ndch.krfgrc sfvnbjb,d ndb\" \\\r\n+\"\")\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1774002074243,
+            "name": "Commit-0",
+            "content": "input()"
+        }
+    ]
+}

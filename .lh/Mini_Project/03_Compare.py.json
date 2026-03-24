@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Mini_Project/03_Compare.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1774332486402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1774332486402,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}
