@@ -1,0 +1,70 @@
+{
+    "sourceFile": "Mini_Project/04_CountdownClocl.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1774335362619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1774335370120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-imp\n\\ No newline at end of file\n+import time\r\n+in\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774335375924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import time\r\n+time\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774335386222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import time\r\n+time = input(\"\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774335393168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import time\r\n+time = input(\"Enter the \")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774335407509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import time\r\n+time = input(\"Enter the Time \")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774335415800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,2 @@\n import time\r\n-time = input(\"Enter the Time \")\n-import time\r\n-time = input(\"Enter the \")\n-import time\r\n-time = input(\"\")\n-import time\r\n-time\n-import time\r\n-in\n\\ No newline at end of file\n+time = input(\"Enter the Time\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336748776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import time\r\n+time = input(\"Enter the Time\")\r\n"
+                },
+                {
+                    "date": 1774336767383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import time\r\n+time = input(\"Enter the Time for begin the countdown\")\r\n"
+                },
+                {
+                    "date": 1774336774608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import time\r\n+Be = input(\"Enter the Time for begin the countdown\")\r\n"
+                },
+                {
+                    "date": 1774336781803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import time\r\n+beginTime = input(\"Enter the Time for begin the countdown\")\r\n"
+                },
+                {
+                    "date": 1774336794827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import time\r\n+beginTime = input(\"Enter the Time for begin the countdown\")\r\n+delay\r\n"
+                },
+                {
+                    "date": 1774336803966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n import time\r\n beginTime = input(\"Enter the Time for begin the countdown\")\r\n-delayTime = input(\"enter t\")\r\n+delayTime = input(\"enter th\")\r\n"
+                },
+                {
+                    "date": 1774336809520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n import time\r\n beginTime = input(\"Enter the Time for begin the countdown\")\r\n-delayTime = input(\"enter the ti\")\r\n+delayTime = input(\"enter the time for \")\r\n"
+                }
+            ],
+            "date": 1774335362619,
+            "name": "Commit-0",
+            "content": "imp"
+        }
+    ]
+}

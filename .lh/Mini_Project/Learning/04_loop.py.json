@@ -1,0 +1,66 @@
+{
+    "sourceFile": "Mini_Project/Learning/04_loop.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1774335483448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1774336261679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+#for loop used for\r\n"
+                },
+                {
+                    "date": 1774336267371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n #for loop used for\r\n-#\n\\ No newline at end of file\n+# - \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336272474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n #for loop used for\r\n-# - \n\\ No newline at end of file\n+# - set -\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336281951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+#for loop used for\r\n+# - set -tupple -strings -\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336290716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+#for loop used for iterate over\r\n+# - set -tupple -strings -\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336308108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+#for loop used for iterate over\r\n+# - set -tupple -strings -list -dictionary -\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336333612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+#for loop used for iterate over\r\n+# - set -tupple -strings -list -dictionary -\r\n"
+                },
+                {
+                    "date": 1774336339603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+#for loop used for iterate over\r\n+# - set -tupple -strings -list -dictionary -\r\n+# for \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336356472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+#for loop used for iterate over\r\n+# - set -tupple -strings -list -dictionary -\r\n+# for nameofeachiteration in \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336362300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+#for loop used for iterate over\r\n+# - set -tupple -strings -list -dictionary -\r\n+# for nameofeachiteration in \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336367808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n #for loop used for iterate over\r\n # - set -tupple -strings -list -dictionary -\r\n-# for nameofeachiteration in w\n\\ No newline at end of file\n+# for nameofeachiteration in \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1774336404544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n #for loop used for iterate over\r\n # - set -tupple -strings -list -dictionary -\r\n-# for nameofeachiteration in (iterationdoneon)\n\\ No newline at end of file\n+# for nameofeachiteration in iterationdoneon)\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1774335483448,
+            "name": "Commit-0",
+            "content": "#"
+        }
+    ]
+}
