@@ -17,24 +17,26 @@ def generateQues():
         else:
             print("Not Possible")
     return f"{num1} {operator} {num2} will be *for divisin use 'Not possible' ", ans
-print("\n---Math Quiz---")
-round = 5
-maxScor = 0
-for i in range(round):
-    print("user score: {}\n".format(maxScor))
-    question, correctAns = generateQues()
-    print(question)
-    userAns = int(input("Enter the Answer: "))
-    if(userAns == correctAns):
-        maxScor+=10
+def mathQuiz():
+    print("\n---Math Quiz---")
+    round = 5
+    maxScor = 0
+    for i in range(round):
+        print("user score: {}\n".format(maxScor))
+        question, correctAns = generateQues()
+        print(question)
+        userAns = int(input("Enter the Answer: "))
+        if(userAns == correctAns):
+            maxScor+=10
+        else:
+            if maxScor>0:
+                maxScor-=10
+    if maxScor>0:
+        print("Wow!! Your highest Score is {}".format(maxScor))
     else:
-        if maxScor>0:
-            maxScor-=10
-if maxScor>0:
-    print("Wow!! Your highest Score is {}".format(maxScor))
-else:
-    print("Needs imporovement!! Keep Learning and Try Again")
-
+        print("Needs imporovement!! Keep Learning and Try Again")
+        
+mathQuiz()
     
     
     
